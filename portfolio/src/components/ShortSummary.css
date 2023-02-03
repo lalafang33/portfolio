@@ -1,0 +1,89 @@
+html.w-mod-touch * {
+  background-attachment: scroll !important;
+}
+
+body {
+  font-family: Onest, sans-serif;
+  color: rgb(57, 57, 57);
+  font-size: 18px;
+  line-height: 1.667em;
+  font-weight: 500;
+}
+
+.container{
+  margin-top: 11em;
+  margin-bottom: 10em;
+
+}
+
+.two-piece {
+  display: flex;
+  margin: 4em;
+  margin-top: 0em; 
+}
+
+
+.picture{
+  /* max-width: 70%; */
+  margin-left: 8em;
+}
+.pic-specs {
+  height: 100%; 
+  width: 100%;
+  max-width: 64%;
+}
+
+.inner-container._430px {
+  max-width: 430px;
+}
+
+.display-2 {
+  color: #0b0b0b;
+  font-size: 52px;
+  line-height: 1.154em;
+  font-weight: 900;
+}
+
+.text-no-wrap {
+  white-space: nowrap;
+}
+
+.text-300 {
+  font-size: 22px;
+  line-height: 1.1em;
+  font-weight: 700;
+}
+
+.mg-bottom-0 {
+  margin-bottom: 0px;
+}
+
+.btn-primary {
+  margin-top: 2em;
+  padding: 26px 38px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #0b0b0b;
+  border-radius: 16px;
+  background-color: #0b0b0b;
+  -webkit-transition: border-color 300ms ease, background-color 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
+  transition: border-color 300ms ease, background-color 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
+  transition: border-color 300ms ease, background-color 300ms ease, transform 300ms ease, color 300ms ease;
+  transition: border-color 300ms ease, background-color 300ms ease, transform 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.111em;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.buttons-row-center-tablet {
+  margin-top: 4em;
+}
