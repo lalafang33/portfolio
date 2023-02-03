@@ -1,0 +1,19 @@
+.logo-strip-wrapper {
+  display: flex;
+  width: 110%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: rgb(11, 11, 11);
+  transform: translate(-15px, 0px) rotate(-5deg);
+  overflow: hidden;
+}
+
+.logo-strip-wrapper {
+
+}
+
+.rotated-strip-image{
+  margin: 4em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
