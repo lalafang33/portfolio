@@ -119,19 +119,13 @@ export default function HomePortfolio() {
                               <div className="mg-bottom-32px">
                                 <div className="flex-horizontal start gap-24px">
                                   <div className="badge-primary small">
-                                    <div>Transit Better</div>
+                                    <div>Interview Scheduler</div>
                                   </div>
                                 </div>
                               </div>
-                              <h3 className="display-3">Transportation Hub</h3>
+                              <h3 className="display-3">Scheduler</h3>
                               <p className="mg-bottom-56px mg-bottom-32px-tablet">
-                                An application that is a hub for all things
-                                transportation. Application includes surrounding
-                                bus stops based on location, route planning, mode
-                                of travel, and ETA. Working features include
-                                tracking your steps taken, kilometers traveled as
-                                well as nearby rated restaurants for your
-                                destination.
+                                 Scheduler is a calendar management application that help arrange interview times with alloted availability between interviewers and students. Users are able to edit appointments, create appointments as well as cancel appointments.
                               </p>
                               <div
                                 className="link-wrapper color-neutral-800 text-bold"
