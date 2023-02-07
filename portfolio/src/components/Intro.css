@@ -17,6 +17,9 @@ html.w-mod-touch * {
   margin-top: 0em;
   margin-bottom: 0em
 }
+.tele {
+  margin-top: 1em;
+}
 
 .intro-text {
   margin-right: auto;

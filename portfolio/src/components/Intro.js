@@ -17,7 +17,7 @@ export default function Intro() {
              <span>from </span>
            <span className="place">Vancouver</span>
           </h1>
-          <p>Yes, Lala as in the Teletubbies... </p>
+          <h3 className="tele">Yes, Lala as in the Teletubbies... </h3>
           <div className="intro-btn">
             <a className="btn">
             <span>  </span>

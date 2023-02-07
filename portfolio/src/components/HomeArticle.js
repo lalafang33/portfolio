@@ -4,6 +4,10 @@ import './HomeArticle.css'
 
 export default function HomeArticle() {
 
+  function handleClick(url) {
+    window.open(url, '_blank');
+  }
+
   return (
     <div className="article-container">
       <div className="article-top">
@@ -21,7 +25,7 @@ export default function HomeArticle() {
             <h3> Oct 23 2022</h3>
             <br/>
             <a className="badge-primary small">
-              <span>Read Article</span>
+             <button className="article-btn" onClick={() => handleClick('https://medium.com/@lalafang33/simple-guide-to-linked-list-data-9a3df0c37757')}>Read Article</button>
             </a>
           </div>
 

@@ -30,6 +30,18 @@
   text-align: center;
   transform-style: preserve-3d;
 }
+.article-btn{
+  display: inline-block;
+  padding: 18px 28px;
+  border-radius: 14px;
+  background-color: #0b0b0b;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.111em;
+  font-weight: 400;
+  margin: 0;
+}
+
 .article-space{
   display: flex;
   justify-content: center;
@@ -61,13 +73,5 @@
   margin-bottom: 4em;
 }
 .badge-primary {
-  display: inline-block;
-  padding: 18px 28px;
-  border-radius: 14px;
-  background-color: #0b0b0b;
-  color: #fff;
-  font-size: 18px;
-  line-height: 1.111em;
-  font-weight: 400;
-  margin: 0;
+  
 }
