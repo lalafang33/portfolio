@@ -7,6 +7,7 @@ import ShortSummary from "./components/ShortSummary";
 import HomePortfolio from "./components/HomePortfolio";
 import HomeResume from "./components/HomeResume";
 import HomeArticle from "./components/HomeArticle";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <HomePortfolio/>
       <HomeResume/>
       <HomeArticle/>
+      <Footer/>
     </div>
   );
 }
