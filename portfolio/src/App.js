@@ -6,6 +6,7 @@ import Logostrip from "./components/LogoStrip";
 import ShortSummary from "./components/ShortSummary";
 import HomePortfolio from "./components/HomePortfolio";
 import HomeResume from "./components/HomeResume";
+import HomeArticle from "./components/HomeArticle";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ShortSummary/>
       <HomePortfolio/>
       <HomeResume/>
+      <HomeArticle/>
     </div>
   );
 }
