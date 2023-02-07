@@ -1,12 +1,17 @@
 import React from "react" 
 import "./Navbar.css"
 import me from "../images/hi.png"
+import email from '../images/email.svg'
 
 export default function Navbar() {
 
   function handleClick(id) {
     document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
   }
+
+  const emailClick = () => {
+    window.location.href = 'mailto:lalafang33@gmail.com';
+  };
 
   return(
     <div className="nav-bar-container" >
@@ -29,7 +34,9 @@ export default function Navbar() {
           </li>
         </ul>
         <a className="small-btn">
-          <span className="line-rounded-icon"></span>
+            <button className="email-icon" onClick={emailClick}>
+               <img className="email-img"src={email}/>Contact
+            </button>
         </a>
       </div>
     </div>

@@ -38,6 +38,20 @@ body {
     line-height: 1.667em;
     margin-left: 1em;
 }
+.email-img {
+  margin-left: 29px;
+}
+.email-icon {
+  display: flex;
+background-color: white;
+flex-direction: column;
+size: smaller;
+justify-content: center;
+padding-top: 0px;
+font-weight: 600;
+font-size: 24px;
+}
+
 
 .nav-bar {
   box-shadow: rgb(11, 11, 11) 7px 7px 0px 0px;
