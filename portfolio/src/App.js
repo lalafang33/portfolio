@@ -15,10 +15,18 @@ function App() {
       <Navbar/>
       <Intro/>
       <Logostrip/>
-      <ShortSummary/>
-      <HomePortfolio/>
-      <HomeResume/>
-      <HomeArticle/>
+      <div id="summary">
+        <ShortSummary/>
+      </div>
+      <div id="portfolio">
+        <HomePortfolio/>
+      </div>
+      <div id="resume">
+        <HomeResume/>
+      </div>
+      <div id="blog">
+        <HomeArticle/>
+      </div>
       <Footer/>
     </div>
   );

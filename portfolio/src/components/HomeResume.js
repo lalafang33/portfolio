@@ -26,7 +26,7 @@ export default function HomeResume() {
                 <div className="top-card">
                   Jan 22 - Present
                 </div>
-                  <div class="resume-card-divider"></div>
+                  <div className="resume-card-divider"></div>
                   <div className="card-content">
                     <h2>Full Stack Developer</h2>
                     <p>Freelance Full Stack Web Developer that have completed multiple projects in JS, React, Ruby on Rails, Express. See some latest projects in Github!</p>
@@ -37,7 +37,7 @@ export default function HomeResume() {
                 <div className="top-card">
                 Nov 2021 - July 2022
                 </div>
-                <div class="resume-card-divider"></div>
+                <div className="resume-card-divider"></div>
                   <div className="card-content">
                     <h2>Senior Premium Banker</h2>
                     <p>Manage client relationships, provide customized financial solutions, identify new business opportunities, and ensure client satisfaction. The role requires strong interpersonal skills, financial acumen, and knowledge of banking products and regulations.</p>
@@ -48,7 +48,7 @@ export default function HomeResume() {
                 <div className="top-card">
                 Mar 2021 - Nov 2021
                 </div>
-                <div class="resume-card-divider"></div>
+                <div className="resume-card-divider"></div>
                   <div className="card-content">
                     <h2>Premium Banker</h2>
                     <p>Manage client relationships, provide customized financial solutions, identify new business opportunities, and ensure client satisfaction. The role requires strong interpersonal skills, financial acumen, and knowledge of banking products and regulations.</p>
