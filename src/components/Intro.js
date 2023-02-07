@@ -25,17 +25,17 @@ export default function Intro() {
           </h1>
           <h3 className="tele">Yes, Lala as in the Teletubbies... </h3>
           <div className="intro-btn">
-            <a className="btn">
+            <p className="btn">
             <span>  </span>
             <button className="click-btn" onClick={emailClick} >Get In Touch</button>
-            </a>
-            <a className="btn">
+            </p>
+            <p className="btn">
             <span>  </span>
             <button className="click-btn" onClick={() => handleClick('https://www.linkedin.com/in/lala-fang/')}> View Portfolio </button>
-            </a>
+            </p>
           </div>
         </div>
-        <img src={me} className="me-img" loading="eager"  />
+        <img src={me} alt='me' className="me-img" loading="eager"  />
       </div>
 
     </div>

@@ -11,7 +11,7 @@ export default function ShortSummary() {
     <div className="container">
       <div className="two-piece">
         <div className="picture" >
-          <img src={pinkGirl} className="pic-specs " />
+          <img src={pinkGirl} alt='cartoon me' className="pic-specs " />
         </div>
         <div className="text-area">
         <div className="text-center---tablet">

@@ -12,9 +12,9 @@ export default function HomeArticle() {
     <div className="article-container">
       <div className="article-top">
         <h1>Article & News</h1>
-        <a className="article-btn">
+        <p className="article-btn">
           <span>More To Come ..</span>
-        </a>
+        </p>
       </div>
       <div className="article-space">
         <div className="article-card">
@@ -24,9 +24,9 @@ export default function HomeArticle() {
             <br/>
             <h3> Oct 23 2022</h3>
             <br/>
-            <a className="badge-primary small">
+            <p className="badge-primary small">
              <button className="article-btn" onClick={() => handleClick('https://medium.com/@lalafang33/simple-guide-to-linked-list-data-9a3df0c37757')}>Read Article</button>
-            </a>
+            </p>
           </div>
 
       </div>

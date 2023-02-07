@@ -33,11 +33,11 @@ export default function Navbar() {
           <button onClick={() => handleClick('blog')}>Blog</button>
           </li>
         </ul>
-        <a className="small-btn">
+        <p className="small-btn">
             <button className="email-icon" onClick={emailClick}>
-               <img className="email-img"src={email}/>Contact
+               <img className="email-img"alt="email" src={email}/>Contact
             </button>
-        </a>
+        </p>
       </div>
     </div>
       

@@ -45,8 +45,8 @@ export default function Footer() {
        <footer className="footer-wrapper">
           <div className="container-default w-container">
               <div className='footer-logo'>
-                <img className="footer-img" src={email} onClick={emailClick}/>
-                <img className="footer-img" src={linkedin} onClick={() => handleClick('https://www.linkedin.com/in/lala-fang/')}/>
+                <img className="footer-img" alt='email' src={email} onClick={emailClick}/>
+                <img className="footer-img" alt='linkedin' src={linkedin} onClick={() => handleClick('https://www.linkedin.com/in/lala-fang/')}/>
               </div>
             <div className="footer-top border-bottom"></div>
             <div className="footer-bottom border-top-0px">

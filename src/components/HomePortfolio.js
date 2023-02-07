@@ -164,11 +164,11 @@ export default function HomePortfolio() {
                 data-w-id="688e2403-e0f0-6c8b-5c40-a5ca5ed06f2a"
                 className="buttons-row center"
               >
-                <a href="" className="btn-primary w-button"
+                <p href="" className="btn-primary w-button"
                   ><span className="line-rounded-icon link-icon-left text-medium"
                     ></span>
                     <button className="git-btn" onClick={() => handleClick('https://github.com/lalafang33')}>Browse All Portfolio</button>
-                </a>
+                </p>
               </div>
             </div>
           </div>
