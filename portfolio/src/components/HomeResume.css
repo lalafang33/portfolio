@@ -8,8 +8,19 @@
   
 }
 
-.resume-title-container {
-  
+.resume-button {
+  font-weight: 500;
+  display: inline-block;
+  margin-right: 6px;
+  border-style: solid;
+  border-radius: 16px;
+  font-size: 18px;
+  line-height: 1.111em;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  transform-style: preserve-3d;
+    
 }
 
 .left-column {
