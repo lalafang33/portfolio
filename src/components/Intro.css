@@ -110,8 +110,9 @@ html.w-mod-touch * {
 
 .two-piece {
   display: flex;
-  margin: 4em;
-  margin-top: 0em; 
+    margin: 11em;
+    margin-bottom: 0;
+    margin-top: 61px;
 }
 
 .click-btn {

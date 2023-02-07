@@ -37,7 +37,7 @@ export default function HomePortfolio() {
                 
                   className="w-dyn-list"
                 >
-                  <div role="list" className="grid-1-column gap-32px w-dyn-items">
+                  <div role="list" className="port-margin">
                     <div
                       id="w-node-_38316eb0-5fd0-d86d-3502-e2d0e0543244-9dc73057"
                       role="listitem"

@@ -9,7 +9,8 @@ body {
 
 @media screen and (max-width: 767px) {
   .nav-bar { 
-      max-width: 600px;
+      max-width: 80%;
+      flex-direction: row;
       margin-right: auto;
       margin-left: auto;
   }
