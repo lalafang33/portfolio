@@ -2,7 +2,9 @@ import React from "react";
 import "./HomeResume.css"
 
 export default function HomeResume() {
-
+  function handleClick(url) {
+    window.open(url, '_blank');
+  }
 
   return(
     <div >
@@ -17,7 +19,9 @@ export default function HomeResume() {
             <p className="text">Ex financial relationship manager turned into Full Stack Developer</p>
           </div>
           <div className="badge-primary-resume">
-            <div className="resume-button">See Full Resume</div>
+            <div className="resume-button">
+              <button className="resume-button" onClick={() => handleClick('https://resume.creddle.io/resume/j1rur8vwj8w')}>See Full Resume</button>
+            </div>
           </div>
         </div>
         <div className="right-column">
@@ -29,7 +33,8 @@ export default function HomeResume() {
                   <div className="resume-card-divider"></div>
                   <div className="card-content">
                     <h2>Full Stack Developer</h2>
-                    <p>Freelance Full Stack Web Developer that have completed multiple projects in JS, React, Ruby on Rails, Express. See some latest projects in Github!</p>
+                    <p>
+                    Freelance Full Stack Web Developer that have completed multiple projects in JS, React, Ruby on Rails, Express. See some latest projects in Github!</p>
                   </div>
                   
             </div>

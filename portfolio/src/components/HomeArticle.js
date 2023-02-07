@@ -13,7 +13,7 @@ export default function HomeArticle() {
       <div className="article-top">
         <h1>Article & News</h1>
         <a className="article-btn">
-          <span>Browse All Articles</span>
+          <span>More To Come ..</span>
         </a>
       </div>
       <div className="article-space">

@@ -5,6 +5,9 @@ import './HomePortfolio.css'
 
 export default function HomePortfolio() {
 
+  function handleClick(url) {
+    window.open(url, '_blank');
+  }
 
   return(
     <div className="portfolio-container"> 
@@ -74,7 +77,7 @@ export default function HomePortfolio() {
                                   className="link-wrapper color-neutral-800 text-bold"
                                 >
                                   <div className="link-text color-neutral-800">
-                                    View case study
+                                   <button className="port-btn" onClick={() => handleClick('https://github.com/lalafang33/Transit-Better')}>View Github</button>
                                   </div>
                                   <div
                                     className="line-rounded-icon link-icon-right color-neutral-800"
@@ -100,12 +103,10 @@ export default function HomePortfolio() {
                       </a>
                     </div>
                     <div
-                      id="w-node-_38316eb0-5fd0-d86d-3502-e2d0e0543244-9dc73057"
                       role="listitem"
                       className="w-dyn-item"
                     >
                       <a
-                        data-w-id="c384f0f7-b29f-b8e0-bc35-13b1d9dca9c3"
                         href="/portfolio-projects/google-workspace-web-app-redesign"
                         className="card porfolio-project-wrapper link-card w-inline-block">
                         <div className="card-container">
@@ -113,12 +114,11 @@ export default function HomePortfolio() {
                             className="w-layout-grid grid-2-columns blog-card-featured card-shadow"
                           >
                             <div
-                              id="w-node-e19d4d0e-15a7-c818-cdae-c195e79cb42e-9dc73057"
                               className="blog-card-featured-inner-content"
                             >
                               <div className="mg-bottom-32px">
                                 <div className="flex-horizontal start gap-24px">
-                                  <div className="badge-primary small">
+                                  <div className="badge-primary-port">
                                     <div>Interview Scheduler</div>
                                   </div>
                                 </div>
@@ -131,7 +131,7 @@ export default function HomePortfolio() {
                                 className="link-wrapper color-neutral-800 text-bold"
                               >
                                 <div className="link-text color-neutral-800">
-                                  View case study
+                                <button className="port-btn" onClick={() => handleClick('https://github.com/lalafang33/scheduler')}>View Github</button>
                                 </div>
                                 <div
                                   className="line-rounded-icon link-icon-right color-neutral-800"
@@ -167,7 +167,7 @@ export default function HomePortfolio() {
                 <a href="" className="btn-primary w-button"
                   ><span className="line-rounded-icon link-icon-left text-medium"
                     ></span>
-                    Browse all portfolio
+                    <button className="git-btn" onClick={() => handleClick('https://github.com/lalafang33')}>Browse All Portfolio</button>
                 </a>
               </div>
             </div>

@@ -3,8 +3,9 @@ import "../components/ShortSummary.css";
 import pinkGirl from "../images/pinkgirl.png"
 
 export default function ShortSummary() {
-
-
+  function handleClick(url) {
+    window.open(url, '_blank');
+  }
 
   return (
     <div className="container">
@@ -23,6 +24,7 @@ export default function ShortSummary() {
                               <span className="heading-span-secondary-2"
                                 > great work?</span>
                             </h2>
+                            <br/>
                           </div>
                         </div>
                       </div>
@@ -35,6 +37,7 @@ export default function ShortSummary() {
                         providing<br />a seamless experience for users with
                         technology.</span>
                     </p>
+                    <br/>
                     <div className="inner-container _500px---tablet center">
                       <div
                         className="inner-container _400px---mbl center _100---mbp"
@@ -47,13 +50,14 @@ export default function ShortSummary() {
                             <div>
                               <div className="mg-bottom-12px">
                                 <div className="text-300 bold color-neutral-800">
-                                  Lighthouse Labs Bootcamp Graduate
+                                      Lighthouse Labs Bootcamp Graduate
                                 </div>
                               </div>
                               <p className="mg-bottom-0">
                                 Proficient in: Javascript, HTML, CSS, SQL, Ruby
                                 on Rails, ReactJS, React Native, MongoDB
                               </p>
+                              <br/>
                             </div>
                           </div>
                         </div>
@@ -77,12 +81,12 @@ export default function ShortSummary() {
                           </div>
                         </div>
                         <div className="buttons-row-center-tablet">
-                          <a href="/about" className="btn-primary w-button">
-                          More about me
+                          <div className="linkedin-btn">
+                            <button className="linkedin-btn" onClick={() => handleClick('https://www.linkedin.com/in/lala-fang/')}> More about me</button>
                           <span
                               className="line-rounded-icon link-icon-left text-medium"
                             > </span>
-                          </a>
+                          </div>
                         </div>
                       </div>
                     </div>
