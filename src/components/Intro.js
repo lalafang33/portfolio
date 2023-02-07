@@ -1,6 +1,7 @@
 import React from "react"; 
 import "./Intro.css"
 import me from "../images/me.jpg"
+import Button from "./Button";
 
 export default function Intro() {
   function handleClick(url) {
@@ -26,12 +27,14 @@ export default function Intro() {
           <h3 className="tele">Yes, Lala as in the Teletubbies... </h3>
           <div className="intro-btn">
             <p className="btn">
-            <span>  </span>
-            <button className="click-btn" onClick={emailClick} >Get In Touch</button>
+            <Button>
+              <button className="click-btn" onClick={emailClick} >Get In Touch</button>
+            </Button>
             </p>
             <p className="btn">
-            <span>  </span>
-            <button className="click-btn" onClick={() => handleClick('https://www.linkedin.com/in/lala-fang/')}> View Portfolio </button>
+              <Button>
+                <button className="click-btn" onClick={() => handleClick('https://www.linkedin.com/in/lala-fang/')}> View Portfolio </button>
+              </Button>
             </p>
           </div>
         </div>

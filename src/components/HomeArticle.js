@@ -1,5 +1,6 @@
 import React from "react";
 import './HomeArticle.css'
+import Button from "./Button";
 
 
 export default function HomeArticle() {
@@ -25,7 +26,9 @@ export default function HomeArticle() {
             <h3> Oct 23 2022</h3>
             <br/>
             <p className="badge-primary small">
-             <button className="article-btn" onClick={() => handleClick('https://medium.com/@lalafang33/simple-guide-to-linked-list-data-9a3df0c37757')}>Read Article</button>
+              <Button>
+                <button className="article-btn" onClick={() => handleClick('https://medium.com/@lalafang33/simple-guide-to-linked-list-data-9a3df0c37757')}>Read Article</button>
+              </Button>
             </p>
           </div>
 

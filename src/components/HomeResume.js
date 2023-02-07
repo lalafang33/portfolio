@@ -1,5 +1,6 @@
 import React from "react"; 
 import "./HomeResume.css"
+import Button from "./Button";
 
 export default function HomeResume() {
   function handleClick(url) {
@@ -20,7 +21,9 @@ export default function HomeResume() {
           </div>
           <div className="badge-primary-resume">
             <div className="resume-button">
-              <button className="resume-button" onClick={() => handleClick('https://resume.creddle.io/resume/j1rur8vwj8w')}>See Full Resume</button>
+              <Button>
+                <button className="resume-button" onClick={() => handleClick('https://resume.creddle.io/resume/j1rur8vwj8w')}>See Full Resume</button>
+              </Button>
             </div>
           </div>
         </div>

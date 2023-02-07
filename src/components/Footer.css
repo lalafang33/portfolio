@@ -173,4 +173,13 @@ html.w-mod-touch * {
   max-width: 100px;
     max-height: 100px;
     width: 70px;
+    cursor: pointer;
+}
+
+.footer-img:hover {
+  transform: translate3d(0px, -3px, 0.01px);
+}
+
+.footer-move-btn {
+  background-color: black;
 }

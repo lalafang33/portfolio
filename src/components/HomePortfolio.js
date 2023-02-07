@@ -1,5 +1,6 @@
 import React from "react"
 import './HomePortfolio.css'
+import Button from "./Button";
 
 
 
@@ -77,7 +78,9 @@ export default function HomePortfolio() {
                                   className="link-wrapper color-neutral-800 text-bold"
                                 >
                                   <div className="link-text color-neutral-800">
-                                   <button className="port-btn" onClick={() => handleClick('https://github.com/lalafang33/Transit-Better')}>View Github</button>
+                                    <Button>
+                                      <button className="port-btn" onClick={() => handleClick('https://github.com/lalafang33/Transit-Better')}>View Github</button>
+                                    </Button>
                                   </div>
                                   <div
                                     className="line-rounded-icon link-icon-right color-neutral-800"
@@ -131,7 +134,9 @@ export default function HomePortfolio() {
                                 className="link-wrapper color-neutral-800 text-bold"
                               >
                                 <div className="link-text color-neutral-800">
-                                <button className="port-btn" onClick={() => handleClick('https://github.com/lalafang33/scheduler')}>View Github</button>
+                                  <Button>
+                                    <button className="port-btn" onClick={() => handleClick('https://github.com/lalafang33/scheduler')}>View Github</button>
+                                  </Button>
                                 </div>
                                 <div
                                   className="line-rounded-icon link-icon-right color-neutral-800"
@@ -164,11 +169,11 @@ export default function HomePortfolio() {
                 data-w-id="688e2403-e0f0-6c8b-5c40-a5ca5ed06f2a"
                 className="buttons-row center"
               >
-                <p href="" className="btn-primary w-button"
-                  ><span className="line-rounded-icon link-icon-left text-medium"
-                    ></span>
+                  <Button>
+                    <p href="" className="btn-primary w-button">
                     <button className="git-btn" onClick={() => handleClick('https://github.com/lalafang33')}>Browse All Portfolio</button>
-                </p>
+                    </p>
+                  </Button>
               </div>
             </div>
           </div>

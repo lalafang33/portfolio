@@ -94,9 +94,9 @@ html.w-mod-touch * {
   border-radius: 12px;
 }
 
-.small-btn:hover {
-  background-color: rgb(28, 146, 255);
+.small-btn-nav:hover {
+  background-color: white;
   transform: translate3d(0px, -3px, 0.01px);
   color: rgb(255, 255, 255);
-  border-color: rgb(28, 146, 255);
+  border-color: black;
 }

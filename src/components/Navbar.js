@@ -2,6 +2,7 @@ import React from "react"
 import "./Navbar.css"
 import me from "../images/hi.png"
 import email from '../images/email.svg'
+import Button from "./Button"
 
 export default function Navbar() {
 
@@ -21,21 +22,22 @@ export default function Navbar() {
             <img className="bitmoji" src={me} loading="eager" width="61" alt="" sizes="(max-width: 479px) 52.453125px, (max-width: 767px) 54.8984375px, 61px" />
           </li>
           <li>
-          <button onClick={() => handleClick('summary')}>About</button>
+          <Button onClick={() => handleClick('summary')}>About</Button>
           </li>
           <li>
-          <button onClick={() => handleClick('resume')}>Resume</button>
+          <Button onClick={() => handleClick('resume')}>Resume</Button>
           </li>
           <li>          
-            <button onClick={() => handleClick('portfolio')}>Portfolio</button>
+            <Button onClick={() => handleClick('portfolio')}>Portfolio</Button>
           </li>  
           <li>
-          <button onClick={() => handleClick('blog')}>Blog</button>
+          <Button onClick={() => handleClick('blog')}>Blog</Button>
           </li>
         </ul>
-        <p className="small-btn">
+        <p className="small-btn-nav">
             <button className="email-icon" onClick={emailClick}>
-               <img className="email-img"alt="email" src={email}/>Contact
+               <img className="email-img"alt="email" src={email}/>
+               Contact
             </button>
         </p>
       </div>

@@ -1,6 +1,7 @@
 import React from "react"; 
 import "../components/ShortSummary.css";
 import pinkGirl from "../images/pinkgirl.png"
+import Button from "./Button";
 
 export default function ShortSummary() {
   function handleClick(url) {
@@ -82,10 +83,9 @@ export default function ShortSummary() {
                         </div>
                         <div className="buttons-row-center-tablet">
                           <div className="linkedin-btn">
-                            <button className="linkedin-btn" onClick={() => handleClick('https://www.linkedin.com/in/lala-fang/')}> More about me</button>
-                          <span
-                              className="line-rounded-icon link-icon-left text-medium"
-                            > </span>
+                            <Button>
+                              <button className="linkedin-btn" onClick={() => handleClick('https://www.linkedin.com/in/lala-fang/')}> More about me</button>
+                            </Button>
                           </div>
                         </div>
                       </div>

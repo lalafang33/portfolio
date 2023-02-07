@@ -3,6 +3,7 @@ import './Footer.css'
 import roundImage from '../images/round-email.svg';
 import email from '../images/email.svg';
 import linkedin from '../images/linkedin.svg';
+import Button from './Button';
 
 export default function Footer() {
 
