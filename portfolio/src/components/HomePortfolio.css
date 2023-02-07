@@ -178,7 +178,7 @@ opacity: 0;
      border-radius: 50px;
 }
 
-.badge-primary {
+.badge-primary-port {
   display: inline-block;
   padding: 18px 28px;
   border-radius: 14px;
@@ -188,6 +188,7 @@ opacity: 0;
   line-height: 1.111em;
   font-weight: 400;
   margin-bottom: 2em;
+
 }
 
 .title {

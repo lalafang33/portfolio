@@ -16,7 +16,7 @@ export default function HomeResume() {
             </div>
             <p className="text">Ex financial relationship manager turned into Full Stack Developer</p>
           </div>
-          <div className="badge-primary small">
+          <div className="badge-primary-resume">
             <div className="resume-button">See Full Resume</div>
           </div>
         </div>

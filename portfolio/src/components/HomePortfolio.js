@@ -55,7 +55,7 @@ export default function HomePortfolio() {
                               >
                                 <div className="mg-bottom-32px">
                                   <div className="flex-horizontal start gap-24px">
-                                    <div className="badge-primary small">
+                                    <div className="badge-primary-port">
                                       <div>Transit Better</div>
                                     </div>
                                   </div>

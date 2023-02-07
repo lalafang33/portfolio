@@ -8,18 +8,18 @@ export default function Footer() {
     <div className='footer-container'>
       <div className='contact-wrapper-container'>
       <div className="footer-newsletter">
-          <div className="container-default w-container">
+          <div className="container-d-default-w-container">
             <div
               className="email-adjuster"
             >
               <div
-                className="image-wrapper newsletter-image-wrapper position-relative"
+                className="footer-image-wrapper"
               >
                 <img
                   src={roundImage}
                   loading="eager"
                   alt="Newsletter Icon - Paperfolio Webflow Template"
-                  className="image"
+                  className="footer-image"
                 />
               </div>
               <div className='wrapper-adjust'>
@@ -34,11 +34,11 @@ export default function Footer() {
                       data-name="Footer Newsletter Form"
                       method="get"
                     >
-                      <label for="name-4" className="field-label">Label</label>
+                      <label for="name-4" className="footer-field-label">Label</label>
                       <div className="form-spacing">
                         <input
                           type="email"
-                          className="input w-input"
+                          className="footer-input"
                           maxlength="256"
                           name="Email"
                           data-name="Email"
@@ -61,12 +61,15 @@ export default function Footer() {
           <div className="container-default w-container">
             <div className="footer-top border-bottom"></div>
             <div className="footer-bottom border-top-0px">
-              <div className="inner-container _500px---mbl center">
-                <p
-                  className="footer-copyright"
-                >
-                  Copyright © Lala Fang | Created 2023
-                </p>
+              <div className='footer-bottom-margin'>
+                <div className="inner-container _500px---mbl center">
+                  <p
+                    className="footer-copyright"
+                  >
+                    Copyright © Lala Fang | Created 2023
+                  </p>
+                </div>
+
               </div>
             </div>
           </div>
