@@ -5,6 +5,7 @@ import Intro from "./components/Intro";
 import Logostrip from "./components/LogoStrip";
 import ShortSummary from "./components/ShortSummary";
 import HomePortfolio from "./components/HomePortfolio";
+import HomeResume from "./components/HomeResume";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Logostrip/>
       <ShortSummary/>
       <HomePortfolio/>
+      <HomeResume/>
     </div>
   );
 }
