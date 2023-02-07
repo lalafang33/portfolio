@@ -82,7 +82,7 @@ html.w-mod-touch * {
   border-color: #0b0b0b;
   border-radius: 24px;
   background-color: #fff;
-  margin-right: 5em;
+  margin-right: 13em;
 } 
 
 .display-4 {
@@ -134,7 +134,6 @@ html.w-mod-touch * {
 }
 
 .footer-top.border-bottom {
-    padding-top: 100px;
     padding-bottom: 80px;
     border-bottom: 1px solid #393939;
 }
@@ -160,4 +159,18 @@ html.w-mod-touch * {
 
 .footer-bottom-margin {
   margin-bottom: 3em;
+}
+
+.footer-logo {
+  background-color: black;
+  border-bottom: black;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5em;
+}
+
+.footer-img {
+  max-width: 100px;
+    max-height: 100px;
+    width: 70px;
 }

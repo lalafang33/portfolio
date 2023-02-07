@@ -3,6 +3,12 @@ import "./Intro.css"
 import me from "../images/me.jpg"
 
 export default function Intro() {
+  function handleClick(url) {
+    window.open(url, '_blank');
+  }
+  const emailClick = () => {
+    window.location.href = 'mailto:lalafang33@gmail.com';
+  };
 
   return (
     <div className="intro-container"> 
@@ -21,10 +27,12 @@ export default function Intro() {
           <div className="intro-btn">
             <a className="btn">
             <span>  </span>
-              Get In Touch</a>
+            <button className="click-btn" onClick={emailClick} >Get In Touch</button>
+            </a>
             <a className="btn">
             <span>  </span>
-            View Portfolio</a>
+            <button className="click-btn" onClick={() => handleClick('https://www.linkedin.com/in/lala-fang/')}> View Portfolio </button>
+            </a>
           </div>
         </div>
         <img src={me} className="me-img" loading="eager"  />

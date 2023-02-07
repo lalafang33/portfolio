@@ -113,3 +113,10 @@ html.w-mod-touch * {
   margin: 4em;
   margin-top: 0em; 
 }
+
+.click-btn {
+  background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}

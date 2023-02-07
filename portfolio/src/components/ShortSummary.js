@@ -55,7 +55,7 @@ export default function ShortSummary() {
                               </div>
                               <p className="mg-bottom-0">
                                 Proficient in: Javascript, HTML, CSS, SQL, Ruby
-                                on Rails, ReactJS, React Native, MongoDB
+                                on Rails, ReactJS, React Native, MongoDB, PSQL, Mocha & Chai, Storybook, Jest, Cypress
                               </p>
                               <br/>
                             </div>

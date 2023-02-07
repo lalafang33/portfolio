@@ -12,6 +12,7 @@
 
 .rotated-strip-image{
   margin: 4em;
+  max-width: 4em;
   margin-top: 0em;
   margin-bottom: 0em;
 }

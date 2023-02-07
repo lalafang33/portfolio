@@ -1,5 +1,9 @@
 import React from "react" 
 import "../components/LogoStrip.css"
+import js from '../images/js.png'
+import react from '../images/atom.png'
+import ruby from '../images/diamonds.png'
+import sql from '../images/database.png'
 
 
 export default function Logostrip() {
@@ -12,34 +16,45 @@ export default function Logostrip() {
         >
           <div className="logo-strip-grid">
             <img
-              src="https://uploads-ssl.webflow.com/63dc25127b4b9572a2c7302d/63dc25127b4b956f49c730b2_facebook-logo-paperfolio-webflow-template.svg"
+              src={js}
               loading="eager"
               alt="facebook logo"
               className="rotated-strip-image"
             /><img
-              src="https://uploads-ssl.webflow.com/63dc25127b4b9572a2c7302d/63dc25127b4b957c85c730b9_youtube-logo-paperfolio-webflow-template.svg"
+              src={ruby}
               loading="eager"
               alt="youtube logo"
               className="rotated-strip-image"
             /><img
-              src="https://uploads-ssl.webflow.com/63dc25127b4b9572a2c7302d/63dc25127b4b957c49c730bc_pinterest-logo-paperfolio-webflow-template.svg"
+              src={react}
               loading="eager"
               alt="pinterest logo"
               className="rotated-strip-image"
             /><img
-              src="https://uploads-ssl.webflow.com/63dc25127b4b9572a2c7302d/63dc25127b4b95baf6c730ba_twitch-logo-paperfolio-webflow-template.svg"
+              src={sql}
               loading="eager"
               alt="twitch logo"
               className="rotated-strip-image"
             /><img
-              src="https://uploads-ssl.webflow.com/63dc25127b4b9572a2c7302d/63dc25127b4b951501c730b1_webflow-logo-paperfolio-webflow-template.svg"
+              src={js}
               loading="eager"
               alt="webflow logo"
               className="rotated-strip-image"
             /><img
-              src="https://uploads-ssl.webflow.com/63dc25127b4b9572a2c7302d/63dc25127b4b9527f0c730bb_google-logo-paperfolio-webflow-template.svg"
+              src={ruby}
               loading="eager"
               alt="google logo"
+              className="rotated-strip-image"
+            />
+            <img
+              src={react}
+              loading="eager"
+              alt="pinterest logo"
+              className="rotated-strip-image"
+            /><img
+              src={sql}
+              loading="eager"
+              alt="twitch logo"
               className="rotated-strip-image"
             />
         </div>
