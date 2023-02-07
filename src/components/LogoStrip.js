@@ -57,12 +57,6 @@ export default function Logostrip() {
               alt="twitch logo"
               className="rotated-strip-image"
             />
-            <img
-              src={js}
-              loading="eager"
-              alt="webflow logo"
-              className="rotated-strip-image"
-            />
         </div>
         </div>
       </div>

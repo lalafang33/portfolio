@@ -10,8 +10,26 @@ import HomeArticle from "./components/HomeArticle";
 import Footer from "./components/Footer";
 
 function App() {
+
+  // const [scale, setScale] = useState(1);
+
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const newScale = Math.max(0.5, 1 - window.scrollY / 1000);
+  //     setScale(newScale);
+  //   };
+
+  //   window.addEventListener('scroll', handleScroll);
+
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
+
   return (
-    <div className="App">
+    <div 
+      className="App"
+    >
       <div className="nav">
         <Navbar/>
       </div>
@@ -29,7 +47,9 @@ function App() {
       <div id="blog">
         <HomeArticle/>
       </div>
-      <Footer/>
+      <div className="footer">
+         <Footer/>
+      </div>
     </div>
   );
 }
