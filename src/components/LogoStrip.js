@@ -46,17 +46,7 @@ export default function Logostrip() {
               alt="google logo"
               className="rotated-strip-image"
             />
-            <img
-              src={react}
-              loading="eager"
-              alt="pinterest logo"
-              className="rotated-strip-image"
-            /><img
-              src={sql}
-              loading="eager"
-              alt="twitch logo"
-              className="rotated-strip-image"
-            />
+          
         </div>
         </div>
       </div>

@@ -45,9 +45,9 @@ body {
   margin-left: 8em;
 }
 .pic-specs {
-  height: 100%; 
-  width: 100%;
-  max-width: 83%;
+  max-height: 80%;
+  margin-top: 4em;
+  max-width: 88%;
 }
 
 .inner-container._430px {
