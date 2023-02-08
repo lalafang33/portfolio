@@ -116,6 +116,10 @@ body {
     justify-content: center;
     margin-top: 4%;
   }
+  .linked-btn {
+    margin-left: 21px;
+}
+
   .picture img {
     max-width: 50%;
   }
@@ -138,7 +142,7 @@ body {
     max-width: 100%;
   }
   .text-center---tablet {
-    margin-left: 47px;
+    margin-left: 26px;
     width: 90%;
   }
   .text-center---tablet .text-no-wrap {

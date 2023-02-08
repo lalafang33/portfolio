@@ -251,7 +251,7 @@ body {
     align-items: center;
   }
   .port-margin {
-    width: 100%;
+    width: 98%;
   }
   .grid-2-columns.blog-card-featured.card-shadow {
     grid-template-columns: 1fr;

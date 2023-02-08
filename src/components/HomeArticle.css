@@ -72,4 +72,9 @@
   .article-btn {
     display: none;
   }
+
+  .article-space {
+    width: 90%;
+    margin-left: 17px;
+  }
 }

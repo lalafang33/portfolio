@@ -149,14 +149,37 @@ html.w-mod-touch * {
   }
   .btn {
     margin: 0.5em;
+    max-height:44px;
   }
+  
   .btn:nth-child(2) {
     background-color: #1c92ff;
     border: blue;
+    padding-top:1px;
+    max-height: 44px;
   }
+  .click-btn {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+}
+  .btn:nth-child(1) .click-btn {
+    background-color: black;
+    border: black;
+    max-height: 19px;
+    margin-top: 0;
+    font-size: 14px;
+    margin-bottom: -1px;
+  }
+
   .btn:nth-child(2) .click-btn {
     background-color: #1c92ff;
     border: blue;
+    max-height: 19px;
+    margin-top: 0;
+    font-size: 14px;
+    margin-bottom: -1px;
   }
   .me-img {
     display: none;
