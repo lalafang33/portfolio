@@ -99,9 +99,16 @@ html.w-mod-touch * {
     margin-left: auto !important;
   }
   .nav-list {
+    display:none;
     flex-direction: column;
     margin-right: auto;
     margin-left: auto;
+  }
+  .dropdown-button {
+    display: block;
+  }
+  .dropdown-button {
+    display: none;
   }
   .bitmoji {
     margin-right: auto;

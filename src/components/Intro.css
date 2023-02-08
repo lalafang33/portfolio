@@ -153,10 +153,10 @@ html.w-mod-touch * {
   }
   
   .btn:nth-child(2) {
-    background-color: #1c92ff;
+    /* background-color: #1c92ff;
     border: blue;
     padding-top:1px;
-    max-height: 44px;
+    max-height: 44px; */
   }
   .click-btn {
     background-color: black;
@@ -174,7 +174,7 @@ html.w-mod-touch * {
   }
 
   .btn:nth-child(2) .click-btn {
-    background-color: #1c92ff;
+    /* background-color: #1c92ff; */
     border: blue;
     max-height: 19px;
     margin-top: 0;
