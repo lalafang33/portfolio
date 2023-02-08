@@ -20,7 +20,7 @@ export default function Intro() {
            <span className="name">Lala Fang</span>
             , a
             <br></br>
-           <span className="designer"> Web Designer </span>
+           <span className="designer"> Web Developer </span>
              <span>from </span>
            <span className="place">Vancouver</span>
           </h1>
