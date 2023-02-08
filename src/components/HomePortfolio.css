@@ -1,13 +1,14 @@
-body {  
+body {
   font-family: Onest, sans-serif;
   color: rgb(57, 57, 57);
   font-size: 18px;
   line-height: 1.667em;
   font-weight: 500;
-
 }
 
-
+.port-margin {
+  margin-right: 12em;
+}
 .border-space {
   margin: 0px;
 }
@@ -15,7 +16,7 @@ body {
 .portfolio-container {
   display: flex;
   align-self: center;
-  margin: 19em;
+  margin: 12em;
   margin-top: 0em;
 }
 .display-2 {
@@ -35,21 +36,21 @@ body {
 }
 
 .blog-card-image-wrapper featured-v {
-  background-color: #5c42fb
+  background-color: #5c42fb;
 }
 
 .blog-card-image-wrapper featured-v2 {
-  background-color: #1c92ff
+  background-color: #1c92ff;
 }
 .card-container {
   border-radius: 5em;
-    width: 110%;
-    max-width: 110%;
-    border: 4px solid black;
-    box-shadow: rgb(11 11 11) 13px 13px 0px 0px;
-    margin-bottom: 4em;
-    margin: 1em;
-    overflow: hidden;
+  width: 110%;
+  max-width: 110%;
+  border: 4px solid black;
+  box-shadow: rgb(11 11 11) 13px 13px 0px 0px;
+  margin-bottom: 4em;
+  margin: 1em;
+  overflow: hidden;
 }
 
 .card-container > img {
@@ -59,7 +60,7 @@ body {
 }
 
 .blog-card-featured-inner-content {
-  margin-left: 3em
+  margin-left: 3em;
 }
 
 .mg-bottom-72px {
@@ -69,7 +70,13 @@ body {
 .heading-span-secondary-1 {
   padding-right: 4px;
   padding-left: 6px;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, transparent), color-stop(0, #ffc431));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(10%, transparent),
+    color-stop(0, #ffc431)
+  );
   background-image: linear-gradient(180deg, transparent 10%, #ffc431 0);
 }
 
@@ -77,13 +84,12 @@ body {
   grid-row-gap: 20px;
 }
 
-.grid-2-columns.blog-card-featured.card-shadow{
+.grid-2-columns.blog-card-featured.card-shadow {
   grid-column-gap: 0px;
   -ms-grid-columns: 1fr 1.1fr;
   grid-template-columns: 1fr 1.1fr;
- 
 }
-.port-btn{
+.port-btn {
   display: inline-block;
   padding: 18px 28px;
   border-radius: 14px;
@@ -95,8 +101,7 @@ body {
   margin: 0;
 }
 
-
-.grid-2-columns{
+.grid-2-columns {
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
@@ -123,31 +128,34 @@ body {
 } */
 
 .card.link-card {
-  -webkit-transition: box-shadow 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
-  transition: box-shadow 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
+  -webkit-transition: box-shadow 300ms ease, color 300ms ease,
+    -webkit-transform 300ms ease;
+  transition: box-shadow 300ms ease, color 300ms ease,
+    -webkit-transform 300ms ease;
   transition: box-shadow 300ms ease, transform 300ms ease, color 300ms ease;
-  transition: box-shadow 300ms ease, transform 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
+  transition: box-shadow 300ms ease, transform 300ms ease, color 300ms ease,
+    -webkit-transform 300ms ease;
   color: #393939;
   text-decoration: none;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
-.card.porfolio-project-wrapper{
+.card.porfolio-project-wrapper {
   overflow: hidden;
   border-radius: 28px;
 }
 
 .inner-container _500px center {
-  -webkit-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1)
-  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
--moz-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1)
-  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
--ms-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1)
-  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0)
-  rotateY(0) rotateZ(0) skew(0, 0);
-opacity: 0
+  -webkit-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0)
+    rotateY(0) rotateZ(0) skew(0, 0);
+  -moz-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+  -ms-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+  transform: translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+  opacity: 0;
 }
 
 #w-node-adb87bf7-3e81-2184-2248-db4773e17ed1-9dc73057 {
@@ -164,18 +172,18 @@ opacity: 0
 }
 
 .buttons-row center {
-  -webkit-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1)
-  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
--moz-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1)
-  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
--ms-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1)
-  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0)
-  rotateY(0) rotateZ(0) skew(0, 0);
-opacity: 0;
+  -webkit-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0)
+    rotateY(0) rotateZ(0) skew(0, 0);
+  -moz-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+  -ms-transform: translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+  transform: translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
+    rotateZ(0) skew(0, 0);
+  opacity: 0;
 }
 
-.w-layout-grid{
+.w-layout-grid {
   display: -ms-grid;
   display: grid;
   grid-auto-columns: 1fr;
@@ -188,10 +196,10 @@ opacity: 0;
 }
 
 .w-layout-grid grid-2-columns blog-card-featured card-shadow {
-      grid-column-gap: 0px;
-     -ms-grid-columns: 1fr 1.1fr;
-     grid-template-columns: 1fr 1.1fr;
-     border-radius: 50px;
+  grid-column-gap: 0px;
+  -ms-grid-columns: 1fr 1.1fr;
+  grid-template-columns: 1fr 1.1fr;
+  border-radius: 50px;
 }
 
 .badge-primary-port {
@@ -204,10 +212,57 @@ opacity: 0;
   line-height: 1.111em;
   font-weight: 400;
   margin-bottom: 2em;
-
 }
 
 .title {
-  display: flex; 
+  display: flex;
   justify-content: center;
 }
+
+.buttons-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+  width: 90%;
+}
+@media screen and (max-width: 767px) {
+  .portfolio-container {
+    margin: auto !important;
+    margin-top: 3% !important;
+  }
+  .card-container {
+    width: 83%;
+    max-width: 90%;
+  }
+  .wf-section {
+    width: 100%;
+  }
+  .wf-section img {
+    display: none;
+  }
+  .section .wf-section .inner-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .inner-container-300px---mbp-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .port-margin {
+    width: 100%;
+  }
+  .grid-2-columns.blog-card-featured.card-shadow {
+    grid-template-columns: 1fr;
+  }
+  .blog-card-featured-inner-content {
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
+  }
+}
+

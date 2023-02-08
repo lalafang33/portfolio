@@ -1,11 +1,10 @@
 .resume-container {
   background-color: black;
-  display: flex; 
+  display: flex;
   justify-content: center;
   grid-column-gap: 64px;
   -ms-grid-columns: 0.8fr 1fr;
   grid-template-columns: 0.8fr 1fr;
-  
 }
 
 .resume-button {
@@ -21,7 +20,6 @@
   text-align: center;
   text-decoration: none;
   transform-style: preserve-3d;
-  
 }
 
 .left-column {
@@ -72,14 +70,20 @@
   z-index: 1;
   padding-right: 4px;
   padding-left: 4px;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, transparent), color-stop(0, #5c42fb));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(10%, transparent),
+    color-stop(0, #5c42fb)
+  );
   background-image: linear-gradient(180deg, transparent 10%, #5c42fb 0);
   color: #fff;
   margin-bottom: 20px;
 }
 
 .text {
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
   color: white;
   font-size: 18px;
   line-height: 1.667em;
@@ -115,16 +119,51 @@
   margin: 1em;
 }
 
-.resume-card-divider  { 
+.resume-card-divider {
   width: 100%;
   height: 3px;
   background-color: #0b0b0b;
 }
 
 .card-content {
-  margin: 2em; 
+  margin: 2em;
 }
 
 .card-content > h2 {
   margin-bottom: 1em;
+}
+
+@media screen and (max-width: 767px) {
+  .resume-container {
+    flex-direction: column;
+  }
+  .left-column {
+    margin-left: 10em !important;
+  }
+  .title-2 {
+    width: auto;
+    font-size: 42px;
+  }
+  .resume-card {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .article-container {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .article-top {
+    margin: 2em !important;
+    flex-direction: column;
+    text-align: center;
+  }
+  .article-top > h1 {
+    margin-left: 0% !important;
+  }
+  .email-adjuster {
+    justify-content: center;
+  }
+  .wrapper-adjust {
+    display: none !important;
+  }
 }

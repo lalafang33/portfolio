@@ -8,11 +8,15 @@
   overflow: hidden;
 }
 
-
-
-.rotated-strip-image{
+.rotated-strip-image {
   margin: 4em;
   max-width: 4em;
   margin-top: 0em;
   margin-bottom: 0em;
+}
+
+@media screen and (max-width: 767px) {
+  .logo-strip-wrapper {
+    display: none;
+  }
 }

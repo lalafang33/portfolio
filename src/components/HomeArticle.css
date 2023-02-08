@@ -1,7 +1,3 @@
-.article-container {
-
-}
-
 .article-top {
   display: flex;
   justify-content: space-between;
@@ -30,7 +26,7 @@
   text-align: center;
   transform-style: preserve-3d;
 }
-.article-btn{
+.article-btn {
   display: inline-block;
   padding: 18px 28px;
   border-radius: 14px;
@@ -42,7 +38,7 @@
   margin: 0;
 }
 
-.article-space{
+.article-space {
   display: flex;
   justify-content: center;
 }
@@ -72,6 +68,8 @@
   text-decoration: none;
   margin-bottom: 4em;
 }
-.badge-primary {
-  
+@media screen and (max-width: 767px) {
+  .article-btn {
+    display: none;
+  }
 }

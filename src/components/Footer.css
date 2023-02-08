@@ -33,10 +33,10 @@ html.w-mod-touch * {
 .footer-image-wrapper {
   min-height: 190px;
   min-width: 190px;
+  margin-top: -1em;
   overflow: hidden;
   transform: translate(0px, 0px);
   position: relative;
-  margin-top: -1em;
 }
 .footerimage {
   border: 0;
@@ -69,8 +69,8 @@ html.w-mod-touch * {
 
 .newsletter-wrapper {
   display: flex;
-  width: 100%;
-  max-height: 44%;
+  width: 80%;
+  height: 4em;
   padding: 30px 30px 30px 112px;
   -webkit-box-pack: justify;
   justify-content: space-between;

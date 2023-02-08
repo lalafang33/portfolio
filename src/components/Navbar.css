@@ -6,28 +6,18 @@ body {
   font-weight: 500;
 }
 
-
-@media screen and (max-width: 767px) {
-  .nav-bar { 
-      max-width: 80%;
-      flex-direction: row;
-      margin-right: auto;
-      margin-left: auto;
-  }
-}
-
-.nav-bar{
-    position: relative;
-    opacity: 1;
-    z-index: 1000;
-    background: rgb(221, 221, 221);
-    padding-top: 34px;
-    padding-bottom: 34px;
-    background-color: transparent;
-    margin-top: 4em;
-    margin-right: 12em;
-    margin-left: 12em;
-    width: 70%;
+.nav-bar {
+  position: relative;
+  opacity: 1;
+  z-index: 1000;
+  background: rgb(221, 221, 221);
+  padding-top: 34px;
+  padding-bottom: 34px;
+  background-color: transparent;
+  margin-top: 4em;
+  margin-right: 12em;
+  margin-left: 12em;
+  width: 70%;
 }
 
 .bitmoji {
@@ -35,39 +25,38 @@ body {
 }
 .nav-list > li > button {
   font-weight: 900;
-    font-size: 27px;
-    background-color: white;
-    line-height: 1.667em;
-    margin-left: 1em;
+  font-size: 27px;
+  background-color: white;
+  line-height: 1.667em;
+  margin-left: 1em;
 }
 .email-img {
   margin-left: 29px;
 }
 .email-icon {
   display: flex;
-background-color: white;
-flex-direction: column;
-size: smaller;
-justify-content: center;
-padding-top: 0px;
-font-weight: 600;
-font-size: 24px;
+  background-color: white;
+  flex-direction: column;
+  size: smaller;
+  justify-content: center;
+  padding-top: 0px;
+  font-weight: 600;
+  font-size: 24px;
 }
-
 
 .nav-bar {
   box-shadow: rgb(11, 11, 11) 7px 7px 0px 0px;
   display: flex;
-    -webkit-box-pack: justify;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    padding: 10px 14px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(11, 11, 11);
-    border-radius: 18px;
+  -webkit-box-pack: justify;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 14px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(11, 11, 11);
+  border-radius: 18px;
 }
 
 html.w-mod-touch * {
@@ -75,15 +64,15 @@ html.w-mod-touch * {
 }
 
 .nav-list {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    grid-column-gap: 12px;
-    font-size: xx-large;
-    margin-right: 6em;
-    font-weight: 900;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  grid-column-gap: 12px;
+  font-size: xx-large;
+  margin-right: 6em;
+  font-weight: 900;
 }
 
 .small-btn {
@@ -100,4 +89,27 @@ html.w-mod-touch * {
   transform: translate3d(0px, -3px, 0.01px);
   color: rgb(255, 255, 255);
   border-color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-bar {
+    max-width: 80%;
+    flex-direction: column;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .nav-list {
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .bitmoji {
+    margin-right: auto;
+  }
+  .nav-list > li > button {
+    margin-left: auto;
+  }
+  .small-btn-nav {
+    margin-top: 5%;
+  }
 }
